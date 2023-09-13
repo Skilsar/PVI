@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="AS_HGG_LR02" default="war">
+    <property name="tomcat" value="D:\Programs\Tomcat 10.1.13" />
+    <property name="tomcat.deployment" value="${tomcat}/webapps" />
+    <property name="tomcat.bin" value="${tomcat}/bin" />
+    <property name="src" value="src" />
+    <property name="build" location="build" />
+
+    <target name="compile">
+        <mkdir dir="${build}" />
+        <javac srcdir="${src}" destdir="${src}/WEB-INF/classes" includeantruntime="false"
+            classpath="./src/lib/jakarta.servlet-api-5.0.0.jar" />
+    </target>
+
+    <target name="war" depends="compile">
+        <war warfile="${build}/${ant.project.name}.war">
+            <fileset dir="src">
+                <exclude name="**/*.java" />
+            </fileset>
+        </war>
+        <antcall target="deploy" />
+    </target>
+
+    <target name="deploy">
+        <copy file="${build}/${ant.project.name}.war" todir="${tomcat.deployment}" />
+        <antcall target="startTomcat" />
+    </target>
+
+    <target name="startTomcat">
+        <exec executable="${tomcat.bin}/startup.bat" />
+    </target>
+
+    <target name="stopTomcat">
+        <exec executable="${tomcat.bin}/shutdown.bat" />
+    </target>
+</project>

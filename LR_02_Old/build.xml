@@ -1,0 +1,51 @@
+<project name="AS_HGG_LR_02" default = "copy" > 
+    <target name="init"> 
+        <echo message="Building Java_LR_02 Project" /> 
+        <property environment="env"/>
+        <property name="tomcat" value="${env.TOMCAT_HOME}\" />
+        <property name="app" value="${tomcat}\webapps\AS_HGG_2\" />
+        <property name = "laba" value = ".\" />
+        <mkdir dir=".\build\" />
+    </target>
+
+    <path id="servlet.classpath">
+        <fileset dir="lib">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="compile" depends ="init"> 
+        <delete verbose ="true"> 
+            <fileset dir="${laba}build"/> 
+        </delete> 
+        <javac srcdir = "${laba}src" 
+        destdir = "${laba}\build" 
+               classpath = "${tomcat}lib\servlet-api.jar">
+            <classpath refid="servlet.classpath"/>
+        </javac>
+    </target> 
+
+    <target name="create" depends ="compile"> 
+        <delete dir= "${app}" /> 
+        <mkdir dir= "${app}\" /> 
+        <mkdir dir= "${app}\WEB-INF" /> 
+    </target> 
+    
+    <target name="copy" depends ="create"> 
+        <copy file= "${laba}web.xml" 
+            todir="${app}\WEB-INF\" /> 
+        <copy file= "${laba}index.html" 
+            todir="${app}\" />  
+        <copy file= "${laba}persondata.html" 
+            todir="${app}\" /> 
+        <copy todir="${app}\WEB-INF\classes"> 
+            <fileset dir="${laba}build"/> 
+        </copy> 
+    </target>
+
+    <target name="war" depends="copy">
+        <war destfile="${app}/AS_HGG_LR_02.war" webxml="${laba}/web.xml">
+            <fileset dir="${app}" />
+        </war>
+    </target>
+</project>
