@@ -42,6 +42,7 @@ public class ServletHGG extends HttpServlet {
       final String method = request.getMethod();
       final String ip = request.getRemoteAddr();
       final String host = request.getRemoteHost();
+      final String serverName = request.getServerName();
       final String queryString = request.getQueryString();
       final String firstname = queryString.split("&")[0].split("=")[1];
       final String lastname = queryString.split("&")[1].split("=")[1];
@@ -53,6 +54,7 @@ public class ServletHGG extends HttpServlet {
       out.println("<h1>" + "Method:" + method + "</h1>");
       out.println("<h1>" + "IP:" + ip + "</h1>");
       out.println("<h1>" + "Host:" + host + "</h1>");
+      out.println("<h1>" + "Server Name:" + serverName + "</h1>");
       out.println("<h1>" + message + "</h1>");
       out.println("<h1>" + firstname + "</h1>");
       out.println("<h1>" + lastname + "</h1>");
