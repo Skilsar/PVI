@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/lib/jakarta.servlet-api-5.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/httpcore5-h2-5.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/slf4j-api-2.0.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/httpclient5-5.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/httpcore5-5.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

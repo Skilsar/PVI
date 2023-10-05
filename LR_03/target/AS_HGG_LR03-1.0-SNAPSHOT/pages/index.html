@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AS_HGG_Lab3</title>
+  </head>
+  <body>
+    <div>
+      <h2>Task 1 - (GET)Sss -> Ggg</h2>
+      <a href="/AS_HGG_LR03/Sss">JustSss</a>
+      <form action="/AS_HGG_LR03/Sss" method="get">
+        <input type="hidden" name="parm" value="GetGggForw" />
+        <button type="submit">Forward</button>
+      </form>
+      <form action="/AS_HGG_LR03/Sss" method="get">
+        <input type="hidden" name="parm" value="GetGggRedir" />
+        <button type="submit">Redirect</button>
+      </form>
+    </div>
+    <div>
+      <h2>Task 2 - (POST) Sss -> Ggg</h2>
+      <form action="/AS_HGG_LR03/Sss" method="post">
+        <input type="hidden" name="parm" value="PostSss" />
+        <button type="submit">Just Sss</button>
+      </form>
+      <form action="/AS_HGG_LR03/Sss" method="post">
+        <input type="hidden" name="parm" value="PostGggForw" />
+        <button type="submit">Forward</button>
+      </form>
+      <form action="/AS_HGG_LR03/Sss" method="post">
+        <input type="hidden" name="parm" value="PostGggRedir" />
+        <button type="submit">Redirect</button>
+      </form>
+    </div>
+    <div>
+      <h2>Task 3 - Get Sss->HTML</h2>
+      <form action="/AS_HGG_LR03/Sss" method="get">
+        <input type="hidden" name="parm" value="GetHtmlForw" />
+        <button type="submit">Forward</button>
+      </form>
+      <form action="/AS_HGG_LR03/Sss" method="get">
+        <input type="hidden" name="parm" value="GetHtmlRedir" />
+        <button type="submit">Redirect</button>
+      </form>
+    </div>
+    <div>
+      <h2>Task 4 - Get Sss->Ggg->html</h2>
+      <form action="/AS_HGG_LR03/Sss" method="get">
+        <input type="hidden" name="parm" value="GetTwoHtmlForw" />
+        <button type="submit">Forward</button>
+      </form>
+      <form action="/AS_HGG_LR03/Sss" method="get">
+        <input type="hidden" name="parm" value="GetTwoHtmlRedir" />
+        <button type="submit">Redirect</button>
+      </form>
+    </div>
+    <div>
+      <h2>Task 5 - Get info Sss->Ggg</h2>
+      <form action="/AS_HGG_LR03/Sss" method="get">
+        <input type="hidden" name="parm" value="GetTwoInfoForw" />
+        <button type="submit">Forward</button>
+      </form>
+      <form action="/AS_HGG_LR03/Sss" method="get">
+        <input type="hidden" name="parm" value="GetTwoInfoRedir" />
+        <button type="submit">Redirect</button>
+      </form>
+    </div>
+    <div>
+      <h2>Task 7</h2>
+      <form action="/AS_HGG_LR03/Sss" method="get">
+        <input type="hidden" name="parm" value="HttpClientGet" />
+        <button type="submit">HttpClient</button>
+      </form>
+      <h3>Task 7 for Remote server</h3>
+      <form action="/AS_HGG_LR03/Sss" method="get">
+        <input type="hidden" name="parm" value="HttpClientGetRemote" />
+        <button type="submit">HttpClientRemote</button>
+      </form>
+    </div>
+    
+    <div>
+      <h2>Task 8</h2>
+      <form action="/AS_HGG_LR03/Sss" method="post">
+        <input type="hidden" name="parm" value="HttpClientPost" />
+        <button type="submit">HttpClient</button>
+      </form>
+      <h3>Task 8 for Remote server</h3>
+      <form action="/AS_HGG_LR03/Sss" method="post">
+        <input type="hidden" name="parm" value="HttpClientPostRemote" />
+        <button type="submit">HttpClientRemoteTask8</button>
+      </form>
+    </div>
+  </body>
+</html>

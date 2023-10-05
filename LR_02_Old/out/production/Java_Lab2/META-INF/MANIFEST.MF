@@ -1,5 +1,0 @@
-Manifest-Version: 1.0
-Class-Path: javax.transaction.jar javax.annotation.jar javax.ejb.jar jav
- ax.jms.jar javax.resource.jar javax.servlet.jsp.jar javax.servlet.jar j
- avax.persistence.jar javax.servlet.jsp.jstl.jar
-

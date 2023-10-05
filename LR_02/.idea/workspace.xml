@@ -5,13 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48d01434-81a8-443f-8f2b-cb4f453673aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/ServletHGG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/ServletHGG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AS_HGG_LR02-1.0-SNAPSHOT/WEB-INF/classes/ServletHGG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AS_HGG_LR02-1.0-SNAPSHOT/WEB-INF/classes/ServletHGG.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AS_HGG_LR02-1.0-SNAPSHOT/WEB-INF/classes/ServletHGG.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/AS_HGG_LR02-1.0-SNAPSHOT/WEB-INF/classes/ServletHGG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/AS_HGG_LR02.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/AS_HGG_LR02.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ServletHGG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ServletHGG.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Теория ПвI ЛР 1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Теория ПвI ЛР 1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/${env.TOMCAT_HOME}/webapps/AS_HGG_2/AS_HGG_LR_02.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/${env.TOMCAT_HOME}/webapps/AS_HGG_2/WEB-INF/classes/Ccc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/${env.TOMCAT_HOME}/webapps/AS_HGG_2/WEB-INF/classes/Ggg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/${env.TOMCAT_HOME}/webapps/AS_HGG_2/WEB-INF/classes/Ppp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/${env.TOMCAT_HOME}/webapps/AS_HGG_2/WEB-INF/classes/Sss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/${env.TOMCAT_HOME}/webapps/AS_HGG_2/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/${env.TOMCAT_HOME}/webapps/AS_HGG_2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/${env.TOMCAT_HOME}/webapps/AS_HGG_2/persondata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/.idea/ant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/.idea/artifacts/Java_Lab2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/Java_Lab2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/Short_teorya.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/build/Ccc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/build/Ggg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/build/Ppp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/build/Sss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/lib/javax.annotation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/lib/javax.ejb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/lib/javax.jms.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/lib/javax.resource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/lib/javax.servlet.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/lib/javax.servlet.jsp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/lib/javax.transaction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/out/artifacts/Java_Lab2_jar/Java_Lab2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/out/production/Java_Lab2/Ccc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/out/production/Java_Lab2/Ggg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/out/production/Java_Lab2/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/out/production/Java_Lab2/Ppp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/out/production/Java_Lab2/Sss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/persondata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/src/Ccc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/src/Ggg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/src/Ppp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/src/Sss.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/.idea/LR_02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/build/AS_HGG_LR02.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/src/WEB-INF/classes/ServletHGG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/src/WEB-INF/classes/ServletHGG.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/src/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/src/lib/jakarta.servlet-api-4.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/src/lib/jakarta.servlet-api-5.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/src/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/src/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/target/AS_HGG_LR02-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/target/classes/ServletHGG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LR_02_Old_New/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../smelov-osnovy-programmirovaniya-na-java.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../smelov-osnovy-programmirovaniya-na-java.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,20 +87,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "E:/BGTU/PVI/LR_03",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\BSTU\practica\PWI\LR_02\src\main\webapp" />
@@ -62,6 +121,7 @@
       <workItem from="1695148968532" duration="68000" />
       <workItem from="1695804095856" duration="1193000" />
       <workItem from="1695805707836" duration="1057000" />
+      <workItem from="1696322176376" duration="37000" />
     </task>
     <servers />
   </component>
