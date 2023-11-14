@@ -55,7 +55,7 @@ public class Aaa extends HttpServlet {
 
         // Выводим значения заголовков в окно браузера
         for (Header header : responseHeaders) {
-            out.println(header.getName() + ": " + header.getValue() + "</br>");
+            out.println(header.getName() + ": " + header.getValue());
         }
 
         int statusCode = httpResponse.getStatusLine().getStatusCode();
