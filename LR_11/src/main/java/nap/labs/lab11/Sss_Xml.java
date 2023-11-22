@@ -41,7 +41,7 @@ public class Sss_Xml extends HttpServlet implements Servlet {
                 }
                 textResult.append("</rand>");
 
-                Thread.sleep(1000);
+                Thread.sleep(5000);
 
                 response.setContentType("text/xml");
                 response.getWriter().println(textResult);
