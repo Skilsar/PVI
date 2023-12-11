@@ -1,0 +1,15 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <context-param>
+        <param-name>doc-dir</param-name>
+        <param-value>E:\BGTU\PVI\LR_13\files</param-value>
+    </context-param>
+
+
+    <welcome-file-list>
+        <welcome-file>/fileList.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
