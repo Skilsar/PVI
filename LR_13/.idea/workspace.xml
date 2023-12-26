@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf078e33-d494-4eab-b297-a8318916cf8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../LR_11/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/fileList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/fileList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../smelov-osnovy-programmirovaniya-na-java.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../smelov-osnovy-programmirovaniya-na-java.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Лабораторные работы/Лабораторная 1-10/Глава7.Практикум.doc" beforeDir="false" afterPath="$PROJECT_DIR$/../Лабораторные работы/Лабораторная 1-10/Глава7.Практикум.doc" afterDir="false" />
     </list>
@@ -170,6 +172,7 @@
       <workItem from="1700478414488" duration="570000" />
       <workItem from="1701840677753" duration="1687000" />
       <workItem from="1701850993226" duration="150000" />
+      <workItem from="1702363363342" duration="3059000" />
     </task>
     <servers />
   </component>

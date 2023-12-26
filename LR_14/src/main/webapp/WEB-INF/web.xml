@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <!--    Lab 14-->
+    <context-param>
+        <param-name>host</param-name>
+        <param-value>smtp.gmail.com</param-value>
+    </context-param>
+    <context-param>
+        <param-name>port</param-name>
+        <param-value>587</param-value>
+    </context-param>
+    <context-param>
+        <param-name>username</param-name>
+        <param-value>********@gmail.com</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>**** **** **** ****</param-value>
+    </context-param>
+
+    <welcome-file-list>
+        <welcome-file>/gmailInfo.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

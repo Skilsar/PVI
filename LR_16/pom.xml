@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>by.belstu.it.lyskov</groupId>
+    <artifactId>Lab16-1.0</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>Lab16</name>
+    <packaging>war</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <junit.version>5.9.2</junit.version>
+        <docker.image.tag>Lab16_war</docker.image.tag>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>12.4.0.jre11</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.15.1</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.postgresql</groupId>-->
+        <!--            <artifactId>postgresql</artifactId>-->
+        <!--            <version>42.2.23</version>-->
+        <!--        </dependency>-->
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.3</version>
+                <configuration>
+                    <warSourceDirectory>src/main/webapp</warSourceDirectory>
+
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>io.fabric8</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>0.43.4</version>
+                <configuration>
+                    <verbose>true</verbose>
+                    <authConfig>
+                        <username>KiR22</username>
+                        <password>Barabull17</password>
+                    </authConfig>
+                    <images>
+                        <image>
+                            <name>lab16</name> <!-- Измененное имя образа -->
+                            <build>
+                                <from>4e8dbd4d45bee6eeeff0b3fcce90c292805e92f322d3b394da35abc24436a799</from>
+                                <dockerFile>${project.basedir}/src/docker/Dockerfile</dockerFile>
+                                <assembly>
+                                    <descriptorRef>
+                                        artifact
+                                    </descriptorRef>
+                                </assembly>
+                            </build>
+
+                            <run>
+                                <ports>
+                                    <port>8085:8080</port>
+                                </ports>
+                            </run>
+                        </image>
+                    </images>
+                    <dockerHost>http://localhost:2375</dockerHost>
+
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

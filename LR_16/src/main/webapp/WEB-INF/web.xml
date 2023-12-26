@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    <context-param>
+        <param-name>PASSWORD</param-name>
+        <param-value>admin</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>uwsref</servlet-name>
+        <servlet-class>by.belstu.it.kir.lab16.controller.UwsrefServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>uwsref</servlet-name>
+        <url-pattern>/uwsref</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wsref</servlet-name>
+        <servlet-class>by.belstu.it.kir.lab16.controller.WsrefServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wsref</servlet-name>
+        <url-pattern>/api/wsref/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>wsrefComment</servlet-name>
+        <servlet-class>by.belstu.it.kir.lab16.controller.WsrefCommentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wsrefComment</servlet-name>
+        <url-pattern>/api/wsrefcomment/*</url-pattern>
+    </servlet-mapping>
+</web-app>

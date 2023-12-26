@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  msql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: dbcontainer
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Qwer1234*
+    networks:
+      - my-network
+
+  your_app:
+    image: lab16:latest
+    container_name: javacont
+    ports:
+      - "8085:8080"
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge
+
+x-logging:
+  options:
+    max-size: "12m"
+    max-file: "5"

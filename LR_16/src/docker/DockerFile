@@ -1,0 +1,2 @@
+FROM 4e8dbd4d45bee6eeeff0b3fcce90c292805e92f322d3b394da35abc24436a799
+COPY /maven /usr/local/tomcat/webapps/
